@@ -3,6 +3,11 @@ return {
     dependencies = { 'nvim-tree/nvim-web-devicons' },
 	opts = {
 		theme = "auto",
-		extensions = { "neo-tree" },
+		extensions = {
+			"lazy",
+			"mason",
+			"neo-tree",
+			"toggleterm",
+		},
 	},
 }

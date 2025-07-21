@@ -8,7 +8,7 @@ return {
 	},
 	lazy = false,
 	opts = {},
-	config = function()
-		vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left<CR>')
-	end
+	keys = {
+		{'<C-n>', '<cmd>Neotree filesystem reveal left<cr>'}
+	}
 }
